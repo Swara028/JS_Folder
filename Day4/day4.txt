@@ -1,0 +1,24 @@
+Question: By how many ways we can access elements in the DOM and write about them in brief?
+===========================================================================================
+In order to be proficient at accessing elements in the DOM, it is necessary to have a working knowledge of CSS selectors, syntax and terminology as well as an understanding of HTML elements. In this tutorial, we will go over several ways to access elements in the DOM: by ID, class, tag, and query selectors.
+
+1.Accessing Elements by ID
+The easiest way to access a single element in the DOM is by its unique ID. We can grab an element by ID with the getElementById() method of the document object.
+
+document.getElementById();
+
+2.Accessing Elements by Class
+The class attribute is used to access one or more specific elements in the DOM. We can get all the elements with a given class name with the getElementsByClassName() method.
+
+document.getElementsByClassName();
+
+3.Accessing Elements by Tag
+A less specific way to access multiple elements on the page would be by its HTML tag name. We access an element by tag with the getElementsByTagName() method.
+
+document.getElementsByTagName();
+
+4.Query Selectors
+If you have any experience with the jQuery API, you may be familiar with jQuery’s method of accessing the DOM with CSS selectors.
+
+$('#demo'); // returns the demo ID element in jQuery
+

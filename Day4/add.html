@@ -1,0 +1,41 @@
+<html>
+    <body>
+        <tr>
+            <td>
+                <label>Enter First Number:</label>
+            </td>
+            <td>
+                <input type="text" id="firstNumber" value="0"/><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Enter Second Number:</label>
+            </td>
+            <td>
+                <input type="text" id="secondNumber" value="0"/><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="ad" onclick=add()>ADD</button>
+            </td>
+            <td>
+                <input type="text" id="res" value=""/>
+            </td>
+        </tr>
+      
+      <script>
+         function add()
+         {
+             var n1=Number(document.getElementById("firstNumber").value);
+             var n2=Number(document.getElementById("secondNumber").value);
+             var sum=n1+n2;
+             document.getElementById("res").value=sum;
+         }
+
+        </script>
+    </body>
+</html>
